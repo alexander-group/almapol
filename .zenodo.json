@@ -3,11 +3,26 @@
   "description": "Code for reducing full polarization continuum observations from ALMA.",
   "creators": [
     {
-      "name": "Alexander Group",
-      "affiliation": "Northwestern University"
-    }
+      "name": "Tanmoy Laskar",
+      "affiliation": "University of Utah"
+    },
+    {
+      "name": "Collin Christy",
+      "affiliation": "University of Arizona"
+    },
+    {
+      "name": "Noah Franz",
+      "affiliation": "University of Arizona"
+    },
+    {
+      "name": "Gavin Farley",
+      "affiliation": "University of Utah"
+    },
+      
   ],
   "license": "gpl-3.0",
   "upload_type": "software",
-  "access_right": "open"
+  "access_right": "open",
+  "language": "eng",
+  "keywords": ["Astronomy", "CASA", "polarization", "Radio astronomy"],
 }
