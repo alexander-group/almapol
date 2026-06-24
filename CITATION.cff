@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+- family-names: Laskar
+  given-names: Tanmoy
+- family-names: Christy
+  given-names: Collin
+- family-names: Franz
+  given-names: Noah
+- family-names: Farley
+  given-names: Gavin
+doi: 10.5281/zenodo.20836850
+identifiers:
+- type: doi
+  value: 10.5281/zenodo.20836850
+title:almapol: ALMA Polarization Calibration Pipeline
+version: 1.0.0
+date-released: 2026-06-24

@@ -1,5 +1,7 @@
 # ALMA Polarization Calibration Pipeline (almapol)
 
+[![DOI](https://zenodo.org/badge/1279385213.svg)](https://doi.org/10.5281/zenodo.20836850)
+
 Code for reducing full polarization continuum observations from ALMA. 
 
 This pipeline is designed to automate and guide the reduction process, split into two primary stages (Pre-calibration and Calibration), followed by optional self-calibration, point source fitting, and polarization variability analysis.
