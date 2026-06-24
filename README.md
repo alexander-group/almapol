@@ -178,6 +178,8 @@ The table below describes the layout of files and folders in this repository:
 
 | Path | Description |
 | :--- | :--- |
+| [`.github/`](.github) | Directory containing GitHub configuration files and workflows. |
+| └── [`.github/workflows/zenodo.yml`](.github/workflows/zenodo.yml) | GitHub Actions workflow to publish releases to Zenodo or Zenodo Sandbox. |
 | [`almapol/`](almapol) | Directory containing all calibration, imaging, and fitting Python scripts. |
 | ├── [`almapol/alma_precal.py`](almapol/alma_precal.py) | Stage 1 pre-calibration pipeline. Prepares ASDMs, generates listing files, and handles initial calibration (Tsys/WVR). |
 | ├── [`almapol/calibrate.py`](almapol/calibrate.py) | Stage 2 calibration pipeline. Performs parallel-hand, cross-hand, and leakage calibration. |
@@ -188,6 +190,8 @@ The table below describes the layout of files and folders in this repository:
 | ├── [`almapol/poltutorial-plotcommands.py`](almapol/poltutorial-plotcommands.py) | CASA `plotms` commands customized for the 3C286 Band 6 polarization calibration guide tutorial dataset. |
 | ├── [`almapol/util.py`](almapol/util.py) | Utility functions for frequency conversions, querying the ALMA online flux database, and parsing XML VOTables. |
 | [`.gitignore`](.gitignore) | Specifies patterns for files and directories (like CASA output files and logs) that git should ignore. |
+| [`.zenodo.json`](.zenodo.json) | Metadata description file used by Zenodo to automatically populate release records. |
 | [`LICENSE`](LICENSE) | The license terms for the repository. |
 | [`README.md`](README.md) | This documentation file. |
+
 

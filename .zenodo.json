@@ -1,0 +1,13 @@
+{
+  "title": "almapol: ALMA Polarization Calibration Pipeline",
+  "description": "Code for reducing full polarization continuum observations from ALMA.",
+  "creators": [
+    {
+      "name": "Alexander Group",
+      "affiliation": "Northwestern University"
+    }
+  ],
+  "license": "gpl-3.0",
+  "upload_type": "software",
+  "access_right": "open"
+}
